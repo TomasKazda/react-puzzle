@@ -1,0 +1,11 @@
+.gameboard {
+    display: grid;
+    /* grid-template-columns: repeat(attr(data-rows), 1fr);
+    grid-template-rows: repeat(attr(data-columns), 1fr); */
+}
+
+.gameboard img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
